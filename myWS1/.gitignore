@@ -166,6 +166,8 @@ cython_debug/
 # Ignore AWS CLI credentials and config files
 .aws/
 
+aws/
+
 # Ignore Terraform state files (optional, if you're using Terraform with AWS)
 *.tfstate
 *.tfstate.backup
@@ -173,3 +175,5 @@ cython_debug/
 # Ignore AWS CloudFormation and SAM build directories (optional)
 .cfn/
 .sam/
+
+awscliv2.zip

@@ -30,3 +30,22 @@ pip3 freeze > requirements.txt
 
 pip install -r requirements.txt
 
+# Install AWS CLI 
+
+check out https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html#cliv2-linux-install
+
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+
+unzip awscliv2.zip
+
+sudo ./aws/install
+
+/usr/local/bin/aws --version
+
+# Create IAM User with proper Role and Policies 
+# Go for Acess Key and Secret Key
+
+
+# Then Run the command and give necessary details
+aws configure
+
