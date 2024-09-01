@@ -166,6 +166,7 @@ cython_debug/
 # Ignore AWS CLI credentials and config files
 .aws/
 
+# Ignore the aws directory containing binaries and compiled libraries
 aws/
 
 # Ignore Terraform state files (optional, if you're using Terraform with AWS)
